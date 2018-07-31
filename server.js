@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.text());
 
 //give server access to use htmlroutes to serve requests made to the server
-require("./routing/apiRoutes.js")(app);
-require("./routing/htmlRoutes.js")(app);
+require("./app/routing/apiRoutes.js")(app);
+require("./app/routing/htmlRoutes.js")(app);
 
 //listening for port  
 app.listen(PORT, function(){

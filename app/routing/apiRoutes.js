@@ -8,12 +8,11 @@ module.exports = function(app) {
 app.get("/api/friends", function(req, res) {
     res.json(friendsData);
     for(var i = 0; i < friendsData.length; i++){
-        console.log(friendsData[i].scores);
+        //console.log(friendsData[i].scores);
         // add the users score - var
-    for(var j = 0; j < friendsData[j].scores[j];){
+    for(var j = 0; j < friendsData[i].scores.length; j++){
         //add numbers here
     }
-        console.log(friendsData[i].score[j]);
         //loop through scores
         //add all the numbers - var
         //store in new array 

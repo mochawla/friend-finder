@@ -16,4 +16,4 @@ Technology & Languages used:
 
 How it works: Start by answering questions with a rating of 1-5 (1 being Strongly Disagree, 5 being Strongly Agree), then submit to see who you're most compatible with.
 
-How it runs: Clone this repository. Run NPM install. Run the Browser on localhost: 
+How it runs: Clone this repository. Run NPM install. Run the Browser on localhost:8080
